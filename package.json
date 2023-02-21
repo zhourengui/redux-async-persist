@@ -1,0 +1,35 @@
+{
+  "name": "@zhourengui/redux-async-persist",
+  "version": "1.0.15",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhourengui/redux-async-persist.git"
+  },
+  "homepage": "https://github.com/zhourengui",
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "persist",
+    "async"
+  ],
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "redux": "^4.2.1"
+  },
+  "authors": [
+    "Rengui Zhou <729049182@qq.com> (https://github.com/zhourengui)"
+  ],
+  "files": [
+    "lib"
+  ]
+}
